@@ -1,0 +1,118 @@
+body{
+    margin: auto;
+    background-color: rgb(240, 255, 255);
+    width: 100%;
+}
+main{
+    max-width: auto;
+    margin: 120px auto;
+    
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header{
+    background-color: rgba(255, 228, 196, 0.664);
+    color:#f7ab39;
+    font-size: 1.2rem;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #000000;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    font-family: 'Berkshire Swash', cursive;
+    align-items: center;
+    z-index: 2;
+}
+header a{
+    color:#f7ab39;
+    text-decoration: none ;
+}
+header ol, header ul{
+    margin:0px
+}
+header li{
+    display: inline;
+    margin-right: 5px;
+}
+
+.indexol>li{
+    margin-right: 1em;
+    justify-content: left;
+}
+article{
+    background-color: rgb(255, 247, 231);
+    border: 3px solid black;
+    padding: 2em;
+    margin-bottom: 3em;
+    box-shadow: 10px 10px 5px 0px #000000;
+}
+article.secciones{
+    width: 90%;
+    margin: auto;
+    margin-top: 2.5em;
+
+}
+h1{
+    text-align: center;
+    color: rgb(255, 233, 208);
+    font-size: 8em;
+    font-family: 'Pirata One', cursive;
+    width: 100%;
+} 
+h2{
+    text-align: justify;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2em;
+}
+p{
+    text-align: justify;
+    font-size: 1.4em;
+    font-family: 'Signika Negative', sans-serif;
+}
+a.enlace{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.4em;
+}
+img{
+    max-width: 100%;
+}
+.vertical{
+    width:auto;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    height: 300px;
+}
+.cuadrada{
+    width:600px;
+}
+.horizontal{
+    width: 100%;
+}
+.fotointro{
+    width:100%;
+    text-align: center;
+}
+.logo{
+    width: 120px;
+    margin-left: 1em;
+    margin-bottom: 0%;
+    margin-right: 1em;
+    margin-top: 0%;
+    float: left;
+}

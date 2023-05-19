@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(#e72525, #3b0000);
+}
+table{
+    margin: auto;
+    table-layout: fixed;
+    border: 5px solid black;
+    width: 90%;
+    border-collapse: collapse;
+    background: linear-gradient(#edf3ff6b, #b84d4554);
+
+}
+h1{
+    font-size: 7em;
+    font-family: 'Pirata One', cursive;
+    text-align: center;
+    color:rgb(39, 2, 2);
+}
+.año{
+    font-family: 'Gilda Display', serif;
+    font-size: 3em;
+}
+    
+th{
+    font-size: 4em;
+    font-family: ;
+}
+.vertical{
+    width: 250px;
+}
+td.titulo{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+}
+td{
+    text-align: center;
+    font-size: 2em;
+}
